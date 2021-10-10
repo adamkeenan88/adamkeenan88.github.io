@@ -1,0 +1,380 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Adam Keenan | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta
+      name="keywords"
+      content="adamkeenan88, Adam Keenan, React, JavaScript, MERN, Developer"
+    />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Adam Keenan | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Adam Keenan</span>
+          <br />
+          I'm the Unknown Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Who am I?</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/adam_profile.jpeg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I was a paralegal for 10 years before my wife and I decided
+                after COVID hit that we were going to take a leap! We sold our
+                home and most of our belongings, I quit my job, and we hit the
+                road in our RV to travel the country with our 3 year old and two
+                dogs. We travelled 22 states over nine months. During that time
+                I was able to really analyze what I wanted to do as a career
+                going forward. Software developing had always intrigued, but I
+                never had the time to devote to it. While on the road I was able
+                to take a beginner course on Python and was immediately hooked.
+                After finishing a specialization certificate through Coursera, I
+                enrolled at the Coding Dojo for their part-time full-stack MERN
+                program. I recently graduated from that program, receiving their
+                highest level of test score and am now looking forward to my
+                ever evolving journey into coding!
+              </p>
+              <p class="about-wrapper__info-text">
+                Beyond coding and software design, I love to be outdoors.
+                Hiking, fishing, biking, camping, and playing sports are my
+                favorite things. I also love to listen to a large variety of
+                music, especially while coding. Being able to introduce our son
+                to the wonders of the world has always been our goal as parents
+                (he's been to more countries before the age of 3 than I had
+                before turning 23!) and watching the world through his eyes has
+                been incredible to experience. This journey has taught us so
+                much and I'm looking for the right kind of position to be able
+                to continue our crazy journey and bring my skills and love of
+                problem solving to an awesome team!
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">< studyBuddy /></h3>
+                <div>
+                  <p class="mb-4">
+                    studyBuddy is a study timer and music player to stream your
+                    favorite focus music in the background while doing homework
+                    or a project. Features: Sign into app (with spotify API
+                    authenticate) Main Timer: - set minutes for study / break
+                    time - pressing start/pause button starts/pauses timer -
+                    when study time is complete, sound a chime start break time,
+                    sound chime when done. study time restarts Music Player: -
+                    search bar allows user to search for their saved playlists
+                    as well public playlists matching search (up to 20
+                    displayed) - embedded player has own start/stop
+                    functionality - boogie to the music
+                  </p>
+                </div>
+                <!-- <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a> -->
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/sevrinn/studyBuddy"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/ezgif.com-gif-maker.gif"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Jessica Keenan Branding Website
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    A personal branding website for a pediatric speech-language
+                    pathologist to highlight therapy content and a soon-to-be
+                    author of a children’s book series. ● Built website
+                    end-to-end using Javascript React and Bulma CSS framework
+                    while utilizing FontAwesome’s Icon library, embedded
+                    external links to various web pages, and utilized a Mongo
+                    database for capturing reviews and comments (functional, but
+                    to be deployed at a later date). ● Deployed website via
+                    Amazon AWS EC2.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="http://18.216.248.225/jessicakeenan"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/adamkeenan88/jkeenansiteproject"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/jkeenansitedemo.gif"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <!-- <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <div>
+                  <p class="mb-4">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Excepturi neque, ipsa animi maiores repellendus distinctio
+                    aperiam earum dolor voluptatum consequatur blanditiis
+                    inventore debitis fuga numquam voluptate ex architecto
+                    itaque molestiae.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded js-tilt">
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            I recently completed a 16 week coding boot camp, which not only
+            provided me with full stack software knowledge, but really prepared
+            me to jump into a software career with the tools to continue
+            learning. I’m looking for a collaborative environment where problem
+            solving and creativity are fostered.
+          </p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:adamkeenan88@email.com"
+            >Let's Connect!</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/adamkeenan88/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/adamkeenan88"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- If you give me some credit, will be huge for me :) -->
+        <p class="footer__text">
+          © 2021 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+
+        <!-- Remove this paragraph once you setup your custom portfolio -->
+        <!-- <p class="mt-3 pt-3">
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/cobidev/simplefolio/fork"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          >
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/cobidev/simplefolio"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star cobidev/simplefolio on GitHub"
+            >Star</a
+          >
+        </p> -->
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
